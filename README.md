@@ -22,7 +22,7 @@ This project implements an Unscented Kalman filter using LIDAR and RADAR sensor 
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make` 
    * On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
-4. Run it: `./ExtendedKF path/to/input.txt path/to/output.txt`. You can find
+4. Run it: `./UnscentedKF path/to/input.txt path/to/output.txt`. You can find
    some sample inputs in 'data/'.
     - eg. `./UnscentedKF ../data/obj_pose-laser-radar-synthetic-input.txt`
 
